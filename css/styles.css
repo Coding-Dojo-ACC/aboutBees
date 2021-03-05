@@ -1,0 +1,48 @@
+body {
+  background-color: lightyellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body header {
+  background-color: black;
+  color: lightyellow;
+  padding: 1em 4em;
+}
+body header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body header nav a {
+  color: lightyellow;
+  text-decoration: none;
+}
+body .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em;
+  padding: 1em;
+}
+body .main .images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .main .images img {
+  max-width: 200px;
+  margin: 1em;
+  border: 5px double black;
+  border-radius: 20%;
+  padding: 0.5em;
+  box-shadow: 5px 5px black;
+}
+body footer {
+  background-color: black;
+  color: lightyellow;
+  padding: 1em;
+  margin: 1em;
+}
